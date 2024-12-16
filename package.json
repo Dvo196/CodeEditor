@@ -1,0 +1,53 @@
+{
+  "proxy": "https://api.jdoodle.com",
+  "name": "code-editor-task",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@chakra-ui/react": "^3.2.3",
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.0",
+    "@monaco-editor/react": "^4.6.0",
+    "@replit/extensions": "^1.10.0",
+    "cra-template": "1.2.0",
+    "firebase": "^11.1.0",
+    "framer-motion": "^11.15.0",
+    "monaco-editor": "^0.52.2",
+    "monaco-languageclient": "^8.8.3",
+    "monaco-python": "^0.1.9",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-monaco-editor": "^0.56.2",
+    "react-scripts": "5.0.1",
+    "typescript": "^5.7.2",
+    "vscode-ws-jsonrpc": "^3.3.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "server": "json-server --watch db.json --port 5000",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "json-server": "^1.0.0-beta.3"
+  }
+}
